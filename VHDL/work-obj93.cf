@@ -1,4 +1,7 @@
 v 4
+file . "ha_tb.vhdl" "d137744d84f4472971d29d52c12af99872787e82" "20240922174546.877":
+  entity ha_tb at 1( 0) + 0 on 29;
+  architecture test of ha_tb at 7( 78) + 0 on 30;
 file . "dflipflop_tb.vhdl" "08b33399d086a063679a7caf0cfe00fd40142b65" "20240922040713.236":
   entity dflipflop_tb at 1( 0) + 0 on 25;
   architecture test of dflipflop_tb at 8( 120) + 0 on 26;
@@ -8,3 +11,6 @@ file . "dff_tb.vhdl" "0f4f418cd99ed557efbf9616af6f551f782d2a60" "20240922033223.
 file . "dflipflop.vhdl" "1a52d62276a447b92624c3235ab8f472e9a04ccf" "20240922040708.083":
   entity dflipflop at 1( 0) + 0 on 23;
   architecture behave of dflipflop at 16( 432) + 0 on 24;
+file . "ha.vhdl" "0896c13da5836ee4edea0efb24f16234496c5179" "20240922174541.593":
+  entity ha at 1( 0) + 0 on 27;
+  architecture behave of ha at 14( 175) + 0 on 28;
