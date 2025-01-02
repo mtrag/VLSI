@@ -1,0 +1,74 @@
+$date
+	Thu Nov 14 23:33:02 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module MultLP_tb $end
+$var wire 16 ! product [15:0] $end
+$var reg 8 " multiplicand [7:0] $end
+$var reg 8 # multiplier [7:0] $end
+$scope module uut $end
+$var wire 8 $ multiplicand [7:0] $end
+$var wire 8 % multiplier [7:0] $end
+$var wire 16 & product [15:0] $end
+$scope begin partial_product[0] $end
+$upscope $end
+$scope begin partial_product[1] $end
+$upscope $end
+$scope begin partial_product[2] $end
+$upscope $end
+$scope begin partial_product[3] $end
+$upscope $end
+$scope begin partial_product[4] $end
+$upscope $end
+$scope begin partial_product[5] $end
+$upscope $end
+$scope begin partial_product[6] $end
+$upscope $end
+$scope begin partial_product[7] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10010110 &
+b1010 %
+b1111 $
+b1010 #
+b1111 "
+b10010110 !
+$end
+#10
+b1111111000000001 !
+b1111111000000001 &
+b11111111 #
+b11111111 %
+b11111111 "
+b11111111 $
+#20
+b0 !
+b0 &
+b1100100 #
+b1100100 %
+b0 "
+b0 $
+#30
+b1010110011111 !
+b1010110011111 &
+b101101 #
+b101101 %
+b1111011 "
+b1111011 $
+#40
+b100111000100 !
+b100111000100 &
+b110010 #
+b110010 %
+b110010 "
+b110010 $
+#50
